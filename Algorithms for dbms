@@ -1,0 +1,129 @@
+               1. BankDetailswith Various Schemas
+
+Step 1: Start MySQLandcreatea databasenamedSelvidb. 
+Step 2: Select Selvidb using the use command. 
+Step 3: Create a table named Bank in Selvidb. 
+Step 4: Set field as accno, set primary key and Email as unique, phonenoas unique. 
+Step 5: Insert the customer details into the table Bank. 
+Step 6: Create another table called loandetails. 
+Step 7: Set field name loanid as primary key, accno as foreign key, loanamount. 
+Step 8: Insert loan details into the table loandetails. 
+Step 9: Perform INNERJOIN, LEFTJOIN,RIGHTJOINusingaccno. 
+Step 10: Display the result and commit changes andstop execution.
+
+              2. OnlineReservation System
+
+Step 1: Start MySQLdatabasecreate tableCustomer (c_id, c_name, email, phonenumber).
+Step 2: Set c_id as primary key of Customertable. 
+Step 3: Insert customer details into Customer table. 
+Step 4: Createtable Vehicle (v_id, v_type, capacity).
+Step 5: Insert values into Vehicle table. 
+Step 6: Createtable reservation(res_id, rec_id, v_id, start_datetime, end_datetime, place). 
+Step 7: Insert values into reservation table. 
+Step 8: Select* fromReservation and display theresult. 
+Step 9: Stop the execution. 
+Step 10:Display the result and commit changes and stop execution.
+
+               3.  Personal Data.
+
+Step 1: Start MySQLdatabaseandcreate tablepersonal. 
+Step 2: Insert the required personal informationinto the tables. 
+Step 3: Use LIKEoperator tosearch for records matching specified pattern. 
+Step 4: Use GROUPBYwithaggregatefunction such ascount(), sum(),avg(),max(),and min(). 
+Step 5: Use ORDERBY tosorttheretrievedrecords inascending ordescending order. 
+Step 6: Use LIMIT todisplay a specified numberof records. 
+Step 7: Use HAVINGclausetofilter grouped records based on condition. 
+Step 8: Display the result. 
+Step 9: Stop the execution. 
+Step 10: Commit andexit the database.
+
+              4. StudentMarkProcessing
+
+Step 1: Start the database and use the database. 
+Step 2: Createtable studentdata with required fields such as rollno, studentname,subjects, total, percentage. 
+Step 3: Insert student details and marks into the table. 
+Step 4: Calculate the total mark of each student. 
+Step 5: Calculate the percentage of each student. 
+Step 6: Updatethetotal and percentagecolumns using UPDATEstatement. 
+Step 7: Use the WHEREclausewithlogical operators such as AND,OR,andNOTtofilter student record. 
+Step 8: Display the required student records. 
+Step 9: StoptheExecution. 
+Step 10: Commit andexit the database.
+
+               5. E-CommerceProduct(MongoDB)
+
+Step 1: Start the MongoDB shell. 
+Step 2: Display the available databases. 
+Step 3: Createor switch tothe e-commerce database. 
+Step 4: Createa productcollection. 
+Step 5: Insert productdetailsinto the collection. 
+Step 6: Viewthecreated collection. 
+Step 7: Viewtheinserted productdata. 
+Step 8: Toviewthedata in tableview andMongoShell view.
+Step 9: Viewtheinserted productdata. 
+Step10: Stop theprocess.
+
+               6. : CRUDOperations(Create, Update, Read and Delete
+
+Step 1: Createa collectionon MongoDBshell collegeshop ina database e-shopping. 
+Step 2: Insert one document in collegeshop. Insert many document in e-shopping.
+Step 3: Readdocument from collection using find(). 
+Step 4: Tofind document whereqtyisgreater than 30 and less than 100. 
+Step 5: Find the document where qtyis greater than orequalto60less than100. 
+Step 6: Updateone document fromcollection collegeshop. 
+Step 7: Toupdate manydocument oneat atime. 
+Step 8: Delete a single document. 
+Step 9: Delete many document. 
+Step 10: Stop the execution.
+
+              7. Built-in Function in MongoDB
+
+Step 1: Selecta database e-shopping. 
+Step 2: Switched todb.e-shopping. 
+Step 3: Use abuilt-in functions to perform tasks.
+Step 4: Theaggregatefunctionaresum,match,group, project. 
+Step 5: Tousethe aggregatefunction to performtheabovetasks. 
+Step 6: Add() built-in functionto add the new field. 
+Step 7: match to select therelated fieldsin the collection. 
+Step 8: group is usedtogroupthe fields intosinglerecord. 
+Step 9: Perform thefunction and display theoutput. 
+Step 10: Stop the Execution.
+
+            8. Sorting, Filtering, and Indexing operations (MongoDB).
+
+Step 1:Start MongoDBCompass. 
+Step 2:Select the E-commerce database. 
+Step 3:Create acollection named Product and insert product documents. 
+Step 4:Filter documents based on category and price. 
+Step 5:Sort the documents by pricein ascending order. 
+Step 6:Filter products belonging to the Furniture categoryand sort them by stock in descending order. 
+Step 7:Filter and sort documents based on category,price, and name. 
+Step 8:Display the documentsbeforeapplying an index. 
+Step 9:Create an indexon therequired field. 
+Step 10:Stop theexecution.
+
+            9. Find Documents in MongoDB
+
+Step 1:Start the MongoDBCompassapplication. 
+Step 2:Select the required database and create a collection. 
+Step 3:Insert user documentscontaining ID, first name,last name, age,and email. 
+Step 4:Find a document usingits ID. 
+Step 5:Find a userusing their email address. 
+Step 6:Find a list of users whohavethesame firstname. 
+Step 7:Find all users whoseage is greater than 12. 
+Step 8: Display the retrieved documents. 
+Step 9:Display the StudentCollection to showthe result. 
+Step 10:Stop the execution.
+
+            10. StockExchange byCSVData.
+
+Step 1: Open MongoDB.
+Step 2: Createdatabase andcollection. 
+Step 3: collection \rightarrow import data \rightarrow select \rightarrow delimiter\rightarrow comma. 
+Step 4: Imported data in table view. 
+Step 5: Find all the stock wheretheprofit is over 0.5. 
+Step 6: Find all the stocks withnegative growth. 
+Step 7: Switch tothedatabase. 
+Step 8: Use find() to read all the data. 
+Step 9: Viewthedata insidethecollection-stock. 
+Step 10: Stopthe execution.
